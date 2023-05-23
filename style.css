@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 
 :root {
-    --textColor: #191919;
+    --textColor: white;
     --font: 'Karla', sans-serif;
     --headerFont: 'Poppins', sans-serif, 'arial';
     --describeFont: 'Roboto', sans-serif, 'arial';
@@ -16,12 +16,7 @@ html {
     margin: 0;
     hight: 100%;
     
-    /*background: #FCB650;
-    background: -webkit-linear-gradient(top, #FCB650, #5D9CF8);
-    background: -moz-linear-gradient(top, #FCB650, #5D9CF8);
-    background: linear-gradient(to bottom, #FCB650, #5D9CF8);*/
-    
-    background-image: url('bg.jpg');
+    background-image: url('aj-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -63,10 +58,10 @@ body {
   padding: 10px; 
   position: center;
     
-  border: 1px solid rgba(255, 255, 255, .25);
+  border: 1px solid rgba(0, 0, 0, .25);
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.45);
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.45);
+  box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.25);
 
   backdrop-filter: blur(15px);
     
