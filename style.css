@@ -8,71 +8,35 @@
 
 }
 
-/**, *:before, *:after {
-  box-sizing: inherit;
-}*/
-
 html {
-    margin: 0;
-    hight: 100%;
-    
-    background-image: url('aj-bg.png');
+    background-image: url('bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-
     font-family: var(--font);
     color: var(--textColor);
-    scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    height: fit-content;
-    min-height: 100%;
-    
+    margin: 10px;
     position: center;
-    box-sizing: border-box;
-  
-    color: #224;
-
 }
 
 .card {
-  width: fit-content;
-  height: fit-content;
   display: block;
-  flex-direction: column;
-  justify-content: space-between;
-    
-  margin-left: 10px;
-  margin-right: 10px;
   margin-bottom: 50px;
   margin-top: 50px;
-  padding: 10px; 
-  position: center;
-    
-  border: 1px solid rgba(0, 0, 0, .25);
+  padding: 12px; 
   border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.45);
-  box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.25);
-
-  backdrop-filter: blur(15px);
-    
-  box-sizing: inherit;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .userName {
     color: var(--textColor);
-    display: block;
     text-align: center;
-    text-decoration: none;
     font-family: var(--headerFont);
     font-weight: 600;
     font-size: 20px;
@@ -87,52 +51,71 @@ body {
     margin-top: 10px;
     font-weight: 400;
     font-size: 15px;
-    weight: 90%;
+    width: 90%;
     max-width: 500px;
 }
 
-.profilePicture, .profilePicture img {
+.profilePicture img {
     position: relative;
     width: 130px;
     height: 130px;
     display: block;
     margin: 35px auto 25px;
-    border-radius: 0%;
-    -webkit-tap-highlight-color: transparent;
+    border-radius: 100px;
 }
 
 .links {
     max-width: 675px;
-    width: 100%;
-    display: block;
-    margin: 27px auto;
+    /* width: 100%; */
 }
 
 .link {
-    position: relative;
     background-color: transparent;
     color: var(--textColor);
     border-style: solid; 
     border-color: var(--textColor);
     border-width: 2px;
-    border-radius: 10px;
-    font-size: 1rem;
-    text-align: center;
-    display: block;
+    border-radius: 12px;
+
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 10px;
     padding: 10px; 
     text-decoration: none;
-    -webkit-tap-highlight-color: transparent;
+
+    /*in line links or not*/
+    display: block; 
+    margin-bottom: 10px;
+    text-align: center;
 }
 
-@media (hover: hover) {
-    .link:hover {
-        background-color: var(--textColor);
-    }
+.videos {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.link:active {
-    background-color: var(--textColor);
+.youtube {
+    background-color: red;
+    border-color: red;
+}
+
+.video {
+    border-radius: 12px;
+    display: block;
+    padding:10px;
+    background-color: black;
+    margin: 20px auto;
+}
+
+.back {
+    text-decoration: none;
+    color: var(--textColor);
+    background-color: red;
+    border-color: red;
+    border-width: 2px;
+    border-radius: 12px;
+    padding: 8px 10px;
+
 }
