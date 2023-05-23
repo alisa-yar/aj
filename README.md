@@ -1,5 +1,6 @@
 # AJ Linktree:sparkles:
- https://algofada.algofam.tech/
+https://algofada.algofam.tech/  
+https://ajcrypto.netlify.app  
  
 ---
 
