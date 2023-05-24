@@ -9,11 +9,10 @@
 }
 
 html {
-    background-image: url('aj-bg.png');
+    background-image: url('bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +55,7 @@ body {
     max-width: 500px;
 }
 
-.profilePicture, .profilePicture img {
+.profilePicture img {
     position: relative;
     width: 130px;
     height: 130px;
@@ -90,7 +89,6 @@ body {
 }
 
 .videos {
-    max-width: 675px;
     margin: 10px;
     display: flex;
     flex-direction: column;
